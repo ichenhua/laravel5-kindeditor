@@ -1,4 +1,4 @@
-<script src="{{asset('vendor/kindeditor/kindeditor-all.min.js')}}"></script>
+<script src="{{asset('vendor/kindeditor/kindeditor-all-min.js')}}"></script>
 <script src="{{asset('vendor/kindeditor/lang/zh-CN.js')}}"></script>
 <script>
     KindEditor.ready(function (K) {
