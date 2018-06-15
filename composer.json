@@ -1,0 +1,23 @@
+{
+    "name": "chenhua/laravel5-kindeditor",
+    "description": "The best HTML Editor of Laravel 5 KindEditor",
+    "keywords": ["laravel", "markdown", "editor"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "homepage": "http://www.ichenhua.cn",
+    "authors": [
+        {
+            "name": "chenhua",
+            "email": "276004561@qq.com"
+        }
+    ],
+    "require": {
+        "qiniu/php-sdk": "^7.2",
+        "aliyuncs/oss-sdk-php": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chenhua\\Kindeditor\\" : "src"
+        }
+    }
+}
